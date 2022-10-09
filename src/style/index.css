@@ -41,6 +41,7 @@ font-family: 'Space Grotesk', sans-serif;
 }
 
 
+
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -158,8 +159,8 @@ body {
 }
 
 .bar button {
-    width: clamp(4rem, 8rem, 8vw);
-    height: clamp(3rem, 4rem, 4vw);
+    width: clamp(4rem, 7rem, 8vw);
+    height: clamp(3rem, 3rem, 4vw);
     background-color: var(--clearwhite);
     border: none;
     border-radius: clamp(0.2rem, 1rem, 1.1vw);
@@ -175,7 +176,7 @@ body {
     -moz-transition: 400ms ease-in;
     -ms-transition: 400ms ease-in;
     -o-transition: 400ms ease-in;
-    font-size: clamp(0.6rem, 1.25rem, 1.4vw);
+    font-size: clamp(0.6rem, 1.1rem, 1.4vw);
     filter: drop-shadow(0px 2px 2px #d7d7d7);
     -webkit-filter: drop-shadow(0px 2px 2px #d7d7d7);
 }
@@ -183,6 +184,7 @@ body {
 .bar button:hover {
     color: var(--clearwhite);
     background-color: var(--darkgreen);
+    scale: 110%;
 
 }
 
@@ -270,6 +272,7 @@ body {
     color: var(--darkgreen);
     background-color: var(--clearwhite);
     filter: drop-shadow(0px 3px 1px #909090);
+    scale: 110%;
 
 }
 
@@ -281,7 +284,126 @@ body {
     display: none;
 }
 
+.shop {
+    width: 100%;
+    height: 80rem;
+    background-color: var(--darkgreen);
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
 
+.shopbar {
+    padding-top: 1rem;
+    width: 100%;
+    height: 10rem;
+    background-color: #346341;
+}
+
+.shopbut {
+    width: 100%;
+    height: 30%;
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.shopbut button {
+    width: 5.5rem;
+    margin: 0;
+    height: 2.2rem;
+    border: none;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8rem;
+    filter: drop-shadow(0px 3px 1px #909090);
+    -webkit-filter: drop-shadow(0px 3px 1px #909090);
+    transition: scale 500ms;
+    -webkit-transition: scale 500ms;
+    -moz-transition: scale 500ms;
+    -ms-transition: scale 500ms;
+    -o-transition: scale 500ms;
+}
+
+.shopbut button:hover,
+.shopbut button:focus {
+    scale: 110%;
+
+}
+
+.shopbut input {
+    width: 10.5rem;
+    margin: 0;
+    height: 2.2rem;
+    border: none;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.8rem;
+    filter: drop-shadow(0px 3px 1px #909090);
+    -webkit-filter: drop-shadow(0px 3px 1px #909090);
+    transition: scale 500ms;
+    -webkit-transition: scale 500ms;
+    -moz-transition: scale 500ms;
+    -ms-transition: scale 500ms;
+    -o-transition: scale 500ms;
+    text-align: center;
+    outline: none;
+}
+
+.shopbut input:focus {
+    scale: 110%;
+    outline: none;
+
+}
+
+.shoptx {
+    width: 100%;
+
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0px 3px 1px #9c9c9c;
+}
+
+.shoptx h2 {
+    color: var(--clearwhite);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: clamp(1.5rem, 2.2rem, 2.3vw);
+    margin: 0;
+    text-shadow: 0px 3px 1px #9c9c9c;
+}
+
+.shoptx h3 {
+    color: var(--clearwhite);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: clamp(1rem, 1.4rem, 2.3vw);
+    text-shadow: 0px 2px 1px #9c9c9c;
+    margin: 0;
+}
+
+
+.shopcon {
+    width: 90%;
+    height: 65rem;
+    background-color: #FEFBF6;
+}
 
 
 
@@ -452,4 +574,24 @@ body {
         -webkit-filter: drop-shadow(0px 2px 2px #d7d7d7);
     }
 
+    #srch {
+        display: none;
+    }
+
+    #srchi {
+        display: none;
+    }
+
+    .shopcon {
+        width: 90%;
+        height: 63rem;
+        background-color: #FEFBF6;
+    }
+
+    .shopbar {
+        padding-top: 1rem;
+        width: 100%;
+        height: 12rem;
+        background-color: #346341;
+    }
 }
