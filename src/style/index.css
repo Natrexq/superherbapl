@@ -403,9 +403,83 @@ body {
     width: 90%;
     height: 65rem;
     background-color: #FEFBF6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(0.5rem,5rem,4vw);
 }
 
-
+    .item{
+        width: clamp(16rem,30rem,31vw);
+        background-color: #468459;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: clamp(8rem,16rem,18vw);
+       position: relative;
+       box-shadow: 0px 0px 1px black;
+    }
+        .descrip{
+            width: 100%;
+            height: 25%;
+            background: rgba(255, 255, 255, 0.2);
+            position: relative;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+         
+        }
+            #herb1{
+                position: absolute;
+                width: 80%;
+                height: 100%;
+                background-image: url('herbata1.jpg');
+                background-size: cover;
+                background-position-y: 50%;
+            }
+            #herb2{
+                position: absolute;
+                width: 80%;
+                height: 100%;
+                background-image: url('herbata2.jpg');
+                background-size: cover;
+                background-position-y: 0%;
+            }
+            #herb3{
+                position: absolute;
+                width: 80%;
+                height: 100%;
+                background-image: url('herbata3.jpg');
+                background-size: cover;
+                background-position-y: 0%;
+            }
+            #herb4{
+                position: absolute;
+                width: 80%;
+                height: 100%;
+                background-image: url('herbata4.jpg');
+                background-size: cover;
+                background-position-y: 0%;
+            }
+            #herb5{
+                position: absolute;
+                width: 80%;
+                height: 100%;
+                background-image: url('herbata5.jpg');
+                background-size: cover;
+                background-position-y: 0%;
+            }
+            #herb6{
+                position: absolute;
+                width: 80%;
+                height: 100%;
+                background-image: url('herbata6.jpg');
+                background-size: cover;
+                background-position-y: 0%;
+            }
 
 
 
