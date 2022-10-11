@@ -7,8 +7,7 @@
 <h2 align="center"> Ten projek możesz dowolnie edytować/przerabiać pod warunkiem że nie użyjesz go w celach komercyjnych </h2> 
 <h2 align="center">Galeria:</h2>
   </br>
-  <img align="center" src="s1.png" >
-  </br>
+  <
   <img align="center" src="s2.png" >
  </br>
   <img align="center" src="s3.png" >
