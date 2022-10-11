@@ -1,10 +1,11 @@
-# [PL] Superherbapl - Przykładowy sklep z herbatą 
-<h1>O Projekcie:</h3>
-<h3>Projekt został zrobony tak o dla siebie</h5>
-<h3>Do stworzenia go  użyłem vanilla js, css, i oczywiście html + własna pseudo biblioteka</h5>
-<h1>Edycja i używanie go:</h3>
-<h3> Ten projek możesz dowolnie edytować/przerabiać pod warunkiem że nie użyjesz go w celach komercyjnych </h5>
-<h1>Autorzy:</h3>
-<h3>- Natrexq</h5>
-<h1>Zdjęcia:</h3>
-<h3>Niedługo...</h5>
+
+<img align="center" src="s1.png" >
+<h2 align="center"> Superherbapl - Przykładowy sklep z herbatą </h1>
+<h3 align="center">O Projekcie:</h3>
+<h3 align="center">Projekt został zrobony tak o dla siebie</h3>
+<h3 align="center">Do stworzenia go  użyłem vanilla js, css, i oczywiście html</h3>
+ <h2 align="center">Edycja i używanie go:</h2>
+<h2 align="center"> Ten projek możesz dowolnie edytować/przerabiać pod warunkiem że nie użyjesz go w celach komercyjnych </h2> 
+  </br>
+
+
